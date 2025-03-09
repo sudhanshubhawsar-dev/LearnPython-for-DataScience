@@ -25,3 +25,15 @@ my_car.set_brand("mode new")
 
 print(my_car.fuel_type())
 print(my_electric_car.fuel_type())
+
+
+#1. Create a Python class called 'Circle' with a method to compute its area.
+class Circle:
+    def __init__(self,radius):
+        self.radius = radius
+        self.pi = 3.14
+    def area_of_circle(self):
+        return self.pi * self.radius * self.radius
+
+aoc = Circle(2)
+print(aoc.area_of_circle())

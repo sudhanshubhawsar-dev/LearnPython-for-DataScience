@@ -37,3 +37,4 @@ class Circle:
 
 aoc = Circle(2)
 print(aoc.area_of_circle())
+
